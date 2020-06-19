@@ -146,6 +146,6 @@ public class ComplexNumber implements Comparable<ComplexNumber> {
     }
 
     private ComplexNumber makeConjugate(ComplexNumber number) {
-        return new ComplexNumber(number.real, -number.img);
+        return new ComplexNumber(number.real, -1*number.img);
     }
 }
